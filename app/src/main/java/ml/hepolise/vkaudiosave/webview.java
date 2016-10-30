@@ -32,6 +32,12 @@ public class webview extends WebViewClient {
 
             return false;
         }
+        if(Uri.parse(url).getHost().endsWith("vk-as.tk")) {
+
+            Log.d(TAG, "return false");
+
+            return false;
+        }
 
 
 

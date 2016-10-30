@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
     private boolean isReceiverRegistered;
     private WebView mWebView;
     //place here current app version
-    final private double appv = 0.99;
+    final private double appv = 1.01;
     final private int REQUEST_CODE_ASK_PERMISSIONS = 123;
     private void permissions() {
         if (Build.VERSION.SDK_INT >= 23) {
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
                     // Enable Javascript
                     WebSettings webSettings = mWebView.getSettings();
                     webSettings.setJavaScriptEnabled(true);
-                    mWebView.loadUrl("http://vkaudiosave.tk/?app=" + token + "&version=" + appv + "&debug=0");
+                    mWebView.loadUrl("https://vk-as.tk/?app=" + token + "&version=" + appv + "&debug=0");
                     // Force links and redirects to open in the WebView instead of in a browser
                     mWebView.setWebViewClient(new WebViewClient());
                     // Stop local links and redirects from opening in browser instead of WebView
@@ -145,6 +145,14 @@ public class MainActivity extends AppCompatActivity {
             LocalBroadcastManager.getInstance(this).registerReceiver(mRegistrationBroadcastReceiver,
                     new IntentFilter(QuickstartPreferences.REGISTRATION_COMPLETE));
             isReceiverRegistered = true;
+        }
+    }
+    @Override
+    public void onBackPressed() {
+        if(mWebView.canGoBack()) {
+            mWebView.goBack();
+        } else {
+            super.onBackPressed();
         }
     }
     /**
