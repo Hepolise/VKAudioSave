@@ -1,44 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="16"
+    abi="armeabi-v7a,armeabi"
+    api-level="25"
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="26081687264330"
+    timestamp="391890807474"
     token="2017283305706824656"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1058" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="157" />
     <task
         name="verifier"
-        duration="0" />
+        duration="6" />
 
     <artifact
-        location="/home/hepolise/development/VKAudioSave/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="/home/hepolise/development/VKAudioSave/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="26041640276398"
+        timestamp="391890807474"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/hepolise/development/VKAudioSave/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="26081687264330"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/hepolise/development/VKAudioSave/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>
