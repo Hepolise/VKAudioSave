@@ -11,13 +11,13 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support.test/rules/0.4.1/res/values/values.xml",
+                    "file": "/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 287,
+                        "startOffset": 229,
                         "endColumn": 45,
-                        "endOffset": 328
+                        "endOffset": 270
                     }
                 }
             }

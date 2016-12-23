@@ -33,7 +33,6 @@ import android.util.Log;
 import android.webkit.DownloadListener;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -54,8 +53,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView mInformationTextView;
     private boolean isReceiverRegistered;
     private WebView mWebView;
-    //place here current app version
-    final private double appv = 1.01;
+    String version;
     final private int REQUEST_CODE_ASK_PERMISSIONS = 123;
     private void permissions() {
         if (Build.VERSION.SDK_INT >= 23) {
@@ -75,6 +73,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         permissions();
 
+        try {
+            version = getPackageManager().getPackageInfo(getPackageName(), 0 ).versionName;
+        } catch (PackageManager.NameNotFoundException e) {
+
+        }
         mRegistrationProgressBar = (ProgressBar) findViewById(R.id.registrationProgressBar);
         mRegistrationBroadcastReceiver = new BroadcastReceiver() {
             @Override
@@ -89,15 +92,10 @@ public class MainActivity extends AppCompatActivity {
                 if (sentToken) {
                     setContentView(R.layout.webview);
                     mWebView = (WebView) findViewById(R.id.activity_main_webview);
-                    // Enable Javascript
                     WebSettings webSettings = mWebView.getSettings();
                     webSettings.setJavaScriptEnabled(true);
-                    mWebView.loadUrl("https://vk-as.tk/?app=" + token + "&version=" + appv + "&debug=0");
-                    // Force links and redirects to open in the WebView instead of in a browser
-                    mWebView.setWebViewClient(new WebViewClient());
-                    // Stop local links and redirects from opening in browser instead of WebView
+                    mWebView.loadUrl("https://vk-as.tk/?app=" + token + "&version=" + version + "&debug=0");
                     mWebView.setWebViewClient(new webview());
-                    //start of download
                     mWebView.setDownloadListener(new DownloadListener() {
                         public void onDownloadStart(String url, String userAgent,
                                                     String contentDisposition, String mimetype,
@@ -108,20 +106,15 @@ public class MainActivity extends AppCompatActivity {
                             startActivity(intent);
                         }
                     });
-                    //end of download
 
                 } else {
                     mInformationTextView.setText(getString(R.string.token_error_message));
                 }
             }
         };
-        mInformationTextView = (TextView) findViewById(R.id.informationTextView);
-
-        // Registering BroadcastReceiver
         registerReceiver();
 
         if (checkPlayServices()) {
-            // Start IntentService to register this application with GCM.
             Intent intent = new Intent(this, ml.hepolise.vkaudiosave.RegistrationIntentService.class);
             startService(intent);
         }
@@ -155,11 +148,6 @@ public class MainActivity extends AppCompatActivity {
             super.onBackPressed();
         }
     }
-    /**
-     * Check the device to make sure it has the Google Play Services APK. If
-     * it doesn't, display a dialog that allows users to download the APK from
-     * the Google Play Store or enable it in the device's system settings.
-     */
     private boolean checkPlayServices() {
         GoogleApiAvailability apiAvailability = GoogleApiAvailability.getInstance();
         int resultCode = apiAvailability.isGooglePlayServicesAvailable(this);

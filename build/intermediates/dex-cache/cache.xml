@@ -3,161 +3,192 @@
 
     <item
         is-multidex="false"
-        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
-        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.2.0_c9fa70dd6ed2096f9da5fc577df4f7a31816d020.jar" />
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_6c2b993c1410ab7f566e9887e7657feb966f6f8a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-8.4.0_a1fa32059914e3b5e43135c4c3136b5e6b88e8e6.jar" />
-    </item>
-    <item
-        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
-        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-gcm-8.4.0_2f6b015f024d9457e47bea28b33f644a03a7185b.jar" />
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_f04ad22eb25f022e7a42e030ca585d06852baccd.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
-        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-23.2.0_40580c4fd8983bf441aa796c627ba3a1311613cf.jar" />
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_71c7be710f90e1353586853772398c4917e97002.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
-        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-gcm-8.4.0_2f6b015f024d9457e47bea28b33f644a03a7185b.jar" />
-    </item>
-    <item
-        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-8.4.0_a1fa32059914e3b5e43135c4c3136b5e6b88e8e6.jar" />
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_bf8303f2b7c5b1aa3309540836df14a00f13b898.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
-        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.2.0_690fce7b0a81da77713b557685d3122eb118d7f7.jar" />
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-10.0.1_89e6bd824d54fb80cd2d752a1d66e390d309ee8a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-8.4.0_a1fa32059914e3b5e43135c4c3136b5e6b88e8e6.jar" />
-    </item>
-    <item
-        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-basement-8.4.0_f774d598516a519981d6a6d47cc5df62db56dcc5.jar" />
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-10.0.1_ccfba58bd1c6af403d08d4e9ed94dd152b4f6e9a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
-        revision="24.0.2"
-        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
-        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-measurement-8.4.0_5c1658118747459cd186659008724a7035563ecf.jar" />
+        revision="23.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-10.0.1_1b6e0a4a5b2ee45eba3bf24aea169b09dc789b0c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/hepolise/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
-        jumboMode="false"
+        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
-        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/release/support-annotations-23.2.0_342fb37ae1f87b0ef5ca69931c08940e7f8bb23e.jar" />
-    </item>
-    <item
-        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
-        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-measurement-8.4.0_5c1658118747459cd186659008724a7035563ecf.jar" />
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.1_87e6cef70bab69443b303f267accfc4c19f0e9f8.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
-        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-gcm-8.4.0_2f6b015f024d9457e47bea28b33f644a03a7185b.jar" />
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_29829ab3b418200ecb7fc40ea72ed29a02699b5b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
-        jumboMode="false"
+        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="6e239441500605809818997dd63b62a947195f8c">
-        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/release/internal_impl-23.2.0_b1b57062d6450bdaad3a1965c6af2bbe14ab5ddd.jar" />
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-iid-10.0.1_889ca873c9088a8ae11a9428f4460497c5913a5b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-basement-8.4.0_f774d598516a519981d6a6d47cc5df62db56dcc5.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_b1d4ed762f828274bfe7072337bf54e02b145946.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
-        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-measurement-8.4.0_5c1658118747459cd186659008724a7035563ecf.jar" />
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_7306c4ff66f897cfdaf1f46c91461eab85588c42.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="292a9fa091757208efa65e77eef63088247e51f3">
-        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-23.2.0_ce83fb350b34ad436926be8c3e0bd76e74acad58.jar" />
+        sha1="344d406b13284ca250064feda02c8d63375dac30">
+        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/debug/instant-run_403a5b523650d6be6a7a71c899e2e9d4d2df597f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
-        revision="24.0.2"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-basement-8.4.0_f774d598516a519981d6a6d47cc5df62db56dcc5.jar" />
+        revision="23.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.0.1_382eac4eaf7b35611f1d5cdba67583e6c5c2f0a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="eadfb62866ae82141068ed073ec9468d972bdc09">
+        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_1417d3efffe2d72f56427f10965edcd1f89dba46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hepolise/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_2608c927f66f7ad3d5ee90bd15d957f19031469e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-10.0.1_a5c071f14dc1bbc06cc2072fd7a7297ab3e0619f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-10.0.1_ab43520adca7bede79306be6af8981c2f0dc4910.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_db242dfb4eba1945e22afdb16a1576cec46bc93b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.0.1_4de28bf574d24646b094b26c1e8e66ec3ddee39c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/home/hepolise/development/VKAudioSave/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_8b990f143a1c8e9822885dc616fa6f659ca1bd8a.jar" />
     </item>
 
 </items>
