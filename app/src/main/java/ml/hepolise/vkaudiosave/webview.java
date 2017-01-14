@@ -23,25 +23,25 @@ public class webview extends WebViewClient {
 
 
 
-        if(Uri.parse(url).getHost().endsWith("vkaudiosave.tk")) {
-
-            Log.d(TAG, "return false");
-
-            return false;
-
-        }
-        if(Uri.parse(url).getHost().endsWith("vk.com")) {
-
-            Log.d(TAG, "return false");
-
-            return false;
-        }
-        if(Uri.parse(url).getHost().endsWith("srvr.tk")) {
-
-            Log.d(TAG, "return false");
-
-            return false;
-        }
+//        if(Uri.parse(url).getHost().endsWith("vkaudiosave.tk")) {
+//
+//            Log.d(TAG, "return false");
+//
+//            return false;
+//
+//        }
+//        if(Uri.parse(url).getHost().endsWith("vk.com")) {
+//
+//            Log.d(TAG, "return false");
+//
+//            return false;
+//        }
+//        if(Uri.parse(url).getHost().endsWith("srvr.tk")) {
+//
+//            Log.d(TAG, "return false");
+//
+//            return false;
+//        }
         if(Uri.parse(url).getHost().endsWith("yandex.ru")) {
 
             Log.d(TAG, "return false");

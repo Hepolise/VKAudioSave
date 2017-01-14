@@ -5,36 +5,36 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="15017263852185"
+    timestamp="3335226051339"
     token="2017283305706824656"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="38" />
+        duration="82" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="3" />
+        duration="25" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
     <artifact
         location="/home/hepolise/development/VKAudioSave/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
         type="DEX" />
 
     <build
-        timestamp="13214507674171"
+        timestamp="2527665495839"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/hepolise/development/VKAudioSave/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="15017263852185"
+        timestamp="3335226051339"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/hepolise/development/VKAudioSave/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"

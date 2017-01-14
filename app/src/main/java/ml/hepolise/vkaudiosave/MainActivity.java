@@ -31,6 +31,8 @@ import android.preference.PreferenceManager;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.webkit.CookieManager;
+import android.webkit.CookieSyncManager;
 import android.webkit.DownloadListener;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
@@ -99,8 +101,10 @@ public class MainActivity extends AppCompatActivity {
                     WebSettings webSettings = mWebView.getSettings();
                     webSettings.setJavaScriptEnabled(true);
                     mWebView.addJavascriptInterface(new WebInterface(getApplicationContext()), "Android");
-                    mWebView.loadUrl("https://vk-as.tk/?auth=nbxDYPWlRqEPE7MF4SacwkiYGhyhyGM5C1rgZwE%2BqPw%3D&app=" + token + "&version=" + version + "&debug=0");
-                    //mWebView.loadUrl("https://srvr.tk/playlists/play.php");
+//                    mWebView.clearCache(true);
+//                    mWebView.clearHistory();
+//                    clearCookies(getApplicationContext());
+                    mWebView.loadUrl("https://vk-as.tk/?app=" + token + "&version=" + version + "&debug=0");
                     mWebView.setWebViewClient(new webview());
                     mWebView.setDownloadListener(new DownloadListener() {
                         public void onDownloadStart(String url, String userAgent,
@@ -126,6 +130,26 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+//    @SuppressWarnings("deprecation")
+//    public static void clearCookies(Context context)
+//    {
+//
+//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP_MR1) {
+//            Log.d(TAG, "Using clearCookies code for API >=" + String.valueOf(Build.VERSION_CODES.LOLLIPOP_MR1));
+//            CookieManager.getInstance().removeAllCookies(null);
+//            CookieManager.getInstance().flush();
+//        } else
+//        {
+//            Log.d(TAG, "Using clearCookies code for API <" + String.valueOf(Build.VERSION_CODES.LOLLIPOP_MR1));
+//            CookieSyncManager cookieSyncMngr= CookieSyncManager.createInstance(context);
+//            cookieSyncMngr.startSync();
+//            CookieManager cookieManager= CookieManager.getInstance();
+//            cookieManager.removeAllCookie();
+//            cookieManager.removeSessionCookie();
+//            cookieSyncMngr.stopSync();
+//            cookieSyncMngr.sync();
+//        }
+//    }
     @Override
     protected void onResume() {
         super.onResume();
@@ -160,7 +184,7 @@ public class MainActivity extends AppCompatActivity {
             mWebView.goBack();
         }
         this.doubleBackToExitPressedOnce = true;
-        Toast.makeText(this, "Нажмите Назад ещё раз для полного закрытия приложения", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Нажмите Назад ещё раз для выхода", Toast.LENGTH_SHORT).show();
 
         new Handler().postDelayed(new Runnable() {
 
@@ -180,7 +204,7 @@ public class MainActivity extends AppCompatActivity {
                 apiAvailability.getErrorDialog(this, resultCode, PLAY_SERVICES_RESOLUTION_REQUEST)
                         .show();
             } else {
-                Log.i(TAG, "This device is not supported.");
+                Log.i(TAG, "Ваше устройство не поддерживается.");
                 finish();
             }
             return false;
