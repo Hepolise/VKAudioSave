@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Jan 14 23:23:26 MSK 2017
+#Sat Jan 14 23:31:51 MSK 2017
 1117.file=/home/hepolise/development/VKAudioSave/app/build/intermediates/transforms/proguard/release/jars/3/1f/main.jar/com/google/android/gms/common/api/a.class
 1391.set=ANDROID_RESOURCE
 1034.base=/home/hepolise/development/VKAudioSave/app/build/intermediates/transforms/proguard/release/jars/3/1f/main.jar
