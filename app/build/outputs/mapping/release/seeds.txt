@@ -3720,3 +3720,5 @@ ml.hepolise.vkaudiosave.R$styleable: int ViewStubCompat_android_inflatedId
 ml.hepolise.vkaudiosave.R$styleable: int ViewStubCompat_android_layout
 ml.hepolise.vkaudiosave.RegistrationIntentService
 ml.hepolise.vkaudiosave.RegistrationIntentService: RegistrationIntentService()
+ml.hepolise.vkaudiosave.WebInterface: void playSound(java.lang.String)
+ml.hepolise.vkaudiosave.WebInterface: void pauseSound()

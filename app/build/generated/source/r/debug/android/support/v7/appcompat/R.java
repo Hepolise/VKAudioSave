@@ -596,14 +596,14 @@ public final class R {
 		public static final int never = 0x7f0a0022;
 		public static final int none = 0x7f0a000e;
 		public static final int normal = 0x7f0a000a;
-		public static final int notification_background = 0x7f0a006e;
+		public static final int notification_background = 0x7f0a006d;
 		public static final int notification_main_column = 0x7f0a0068;
 		public static final int notification_main_column_container = 0x7f0a0067;
 		public static final int parentPanel = 0x7f0a0038;
 		public static final int progress_circular = 0x7f0a0005;
 		public static final int progress_horizontal = 0x7f0a0006;
 		public static final int radio = 0x7f0a0048;
-		public static final int right_icon = 0x7f0a006d;
+		public static final int right_icon = 0x7f0a006e;
 		public static final int right_side = 0x7f0a0069;
 		public static final int screen = 0x7f0a0015;
 		public static final int scrollIndicatorDown = 0x7f0a003e;

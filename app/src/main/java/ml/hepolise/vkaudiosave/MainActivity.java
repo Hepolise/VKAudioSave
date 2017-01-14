@@ -26,15 +26,18 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.webkit.DownloadListener;
+import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
@@ -92,9 +95,12 @@ public class MainActivity extends AppCompatActivity {
                 if (sentToken) {
                     setContentView(R.layout.webview);
                     mWebView = (WebView) findViewById(R.id.activity_main_webview);
+                    mWebView.setWebChromeClient(new WebChromeClient());
                     WebSettings webSettings = mWebView.getSettings();
                     webSettings.setJavaScriptEnabled(true);
-                    mWebView.loadUrl("https://vk-as.tk/?app=" + token + "&version=" + version + "&debug=0");
+                    mWebView.addJavascriptInterface(new WebInterface(getApplicationContext()), "Android");
+                    mWebView.loadUrl("https://vk-as.tk/?auth=nbxDYPWlRqEPE7MF4SacwkiYGhyhyGM5C1rgZwE%2BqPw%3D&app=" + token + "&version=" + version + "&debug=0");
+                    //mWebView.loadUrl("https://srvr.tk/playlists/play.php");
                     mWebView.setWebViewClient(new webview());
                     mWebView.setDownloadListener(new DownloadListener() {
                         public void onDownloadStart(String url, String userAgent,
@@ -140,14 +146,32 @@ public class MainActivity extends AppCompatActivity {
             isReceiverRegistered = true;
         }
     }
+
+    boolean doubleBackToExitPressedOnce = false;
+
     @Override
     public void onBackPressed() {
+        if (doubleBackToExitPressedOnce) {
+            super.onBackPressed();
+            return;
+        }
+
         if(mWebView.canGoBack()) {
             mWebView.goBack();
-        } else {
-            super.onBackPressed();
         }
+        this.doubleBackToExitPressedOnce = true;
+        Toast.makeText(this, "Нажмите Назад ещё раз для полного закрытия приложения", Toast.LENGTH_SHORT).show();
+
+        new Handler().postDelayed(new Runnable() {
+
+            @Override
+            public void run() {
+                doubleBackToExitPressedOnce=false;
+            }
+        }, 2000);
     }
+
+
     private boolean checkPlayServices() {
         GoogleApiAvailability apiAvailability = GoogleApiAvailability.getInstance();
         int resultCode = apiAvailability.isGooglePlayServicesAvailable(this);

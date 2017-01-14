@@ -116,10 +116,6 @@
         "source": "/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "/home/hepolise/development/VKAudioSave/app/build/intermediates/res/merged/release/layout/notification_template_custom_big.xml",
-        "source": "/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_custom_big.xml"
-    },
-    {
         "merged": "/home/hepolise/development/VKAudioSave/app/build/intermediates/res/merged/release/layout/notification_template_media.xml",
         "source": "/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_media.xml"
     },

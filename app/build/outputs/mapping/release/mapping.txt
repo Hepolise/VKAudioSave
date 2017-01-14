@@ -14112,13 +14112,14 @@ com.google.firebase.provider.FirebaseInitProvider -> com.google.firebase.provide
     int delete(android.net.Uri,java.lang.String,java.lang.String[]) -> delete
     int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[]) -> update
 ml.hepolise.vkaudiosave.MainActivity -> ml.hepolise.vkaudiosave.MainActivity:
-    android.content.BroadcastReceiver mRegistrationBroadcastReceiver -> n
-    android.widget.ProgressBar mRegistrationProgressBar -> o
-    android.widget.TextView mInformationTextView -> p
-    boolean isReceiverRegistered -> q
-    android.webkit.WebView mWebView -> r
+    android.content.BroadcastReceiver mRegistrationBroadcastReceiver -> o
+    android.widget.ProgressBar mRegistrationProgressBar -> p
+    android.widget.TextView mInformationTextView -> q
+    boolean isReceiverRegistered -> r
+    android.webkit.WebView mWebView -> s
     java.lang.String version -> m
-    int REQUEST_CODE_ASK_PERMISSIONS -> s
+    int REQUEST_CODE_ASK_PERMISSIONS -> t
+    boolean doubleBackToExitPressedOnce -> n
     void <init>() -> <init>
     void permissions() -> j
     void onCreate(android.os.Bundle) -> onCreate
@@ -14139,6 +14140,10 @@ ml.hepolise.vkaudiosave.MainActivity$1$1 -> ml.hepolise.vkaudiosave.MainActivity
     ml.hepolise.vkaudiosave.MainActivity$1 this$1 -> a
     void <init>(ml.hepolise.vkaudiosave.MainActivity$1) -> <init>
     void onDownloadStart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,long) -> onDownloadStart
+ml.hepolise.vkaudiosave.MainActivity$2 -> ml.hepolise.vkaudiosave.MainActivity$2:
+    ml.hepolise.vkaudiosave.MainActivity this$0 -> a
+    void <init>(ml.hepolise.vkaudiosave.MainActivity) -> <init>
+    void run() -> run
 ml.hepolise.vkaudiosave.MyGcmListenerService -> ml.hepolise.vkaudiosave.MyGcmListenerService:
     void <init>() -> <init>
     void onMessageReceived(java.lang.String,android.os.Bundle) -> a
@@ -14152,6 +14157,14 @@ ml.hepolise.vkaudiosave.RegistrationIntentService -> ml.hepolise.vkaudiosave.Reg
     void onHandleIntent(android.content.Intent) -> onHandleIntent
     void subscribeTopics(java.lang.String) -> a
     void <clinit>() -> <clinit>
-ml.hepolise.vkaudiosave.webview -> ml.hepolise.vkaudiosave.a:
+ml.hepolise.vkaudiosave.WebInterface -> ml.hepolise.vkaudiosave.a:
+    android.content.Context mContext -> a
+    java.lang.String TAG -> b
+    java.lang.Boolean started -> c
+    android.media.MediaPlayer mediaPlayer -> d
+    void <init>(android.content.Context) -> <init>
+    void playSound(java.lang.String) -> playSound
+    void pauseSound() -> pauseSound
+ml.hepolise.vkaudiosave.webview -> ml.hepolise.vkaudiosave.b:
     void <init>() -> <init>
     boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading

@@ -65,7 +65,7 @@ public class MyGcmListenerService extends GcmListenerService {
                     .setLights(0x00FFFF, 2000, 1000)
                     .setContentIntent(pendingIntent);
             Notification notification = new Notification.BigTextStyle(notificationBuilder)
-                    .bigText("Твой плейлист готов" +
+                    .bigText("Твой плейлист готов\n" +
                             "Перейти к приложению").build();
             NotificationManager notificationManager =
                     (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
@@ -83,7 +83,7 @@ public class MyGcmListenerService extends GcmListenerService {
                     .setLights(0x00FFFF, 2000, 1000)
                     .setContentIntent(pendingIntent);
             Notification notification = new Notification.BigTextStyle(notificationBuilder)
-                    .bigText("Нужен ввод каптчи " +
+                    .bigText("Нужен ввод каптчи\n" +
                             "Перейти к приложению").build();
             NotificationManager notificationManager =
                     (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);

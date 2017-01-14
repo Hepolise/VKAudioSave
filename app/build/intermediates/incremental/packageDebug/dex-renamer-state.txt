@@ -1,4 +1,4 @@
-#Fri Dec 23 21:31:57 MSK 2016
+#Sat Jan 14 17:27:40 MSK 2017
 base.0=/home/hepolise/development/VKAudioSave/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_403a5b523650d6be6a7a71c899e2e9d4d2df597f
 renamed.1=classes.dex
 renamed.0=classes2.dex
