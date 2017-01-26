@@ -1,7 +1,4 @@
-#Sat Jan 14 23:04:25 MSK 2017
-base.0=/home/hepolise/development/VKAudioSave/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_403a5b523650d6be6a7a71c899e2e9d4d2df597f
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/home/hepolise/development/VKAudioSave/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1417d3efffe2d72f56427f10965edcd1f89dba46/classes.dex
-base.1=/home/hepolise/development/VKAudioSave/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1417d3efffe2d72f56427f10965edcd1f89dba46
-file.0=/home/hepolise/development/VKAudioSave/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_403a5b523650d6be6a7a71c899e2e9d4d2df597f/classes.dex
+#Thu Jan 26 22:34:37 MSK 2017
+base.0=/home/hepolise/repo/VKAudioSave/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/hepolise/repo/VKAudioSave/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
