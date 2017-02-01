@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/hepolise/development/VKAudioSave/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable/abc_cab_background_internal_bg.xml"
-    },
-    {
         "merged": "/home/hepolise/development/VKAudioSave/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
         "source": "/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/home/hepolise/development/VKAudioSave/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "/home/hepolise/development/VKAudioSave/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
