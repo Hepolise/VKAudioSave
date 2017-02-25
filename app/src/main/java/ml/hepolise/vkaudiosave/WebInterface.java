@@ -13,7 +13,8 @@ import java.io.IOException;
  * Created by hepolise on 14.01.17.
  */
 
-public class WebInterface {
+public class
+WebInterface {
     Context mContext;
 
     String TAG = "VKAudioSave";
@@ -34,14 +35,23 @@ public class WebInterface {
             }
             mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
             mediaPlayer.setDataSource(url);
-            mediaPlayer.prepare(); // might take long! (for buffering, etc)
+            mediaPlayer.prepareAsync(); // might take long! (for buffering, etc)
             //mediaPlayer.pause();
-            mediaPlayer.start();
+
+            //mediaPlayer.start();
             started = true;
 
         } catch (IOException e) {
             Log.d(TAG, e.getMessage());
         }
+        mediaPlayer.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+
+            @Override
+            public void onPrepared(MediaPlayer player) {
+                player.start();
+            }
+
+        });
     }
 
     @JavascriptInterface
