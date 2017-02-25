@@ -1997,27 +1997,28 @@ com.google.android.gms.R$color: int common_google_signin_btn_text_light_default
 com.google.android.gms.R$color: int common_google_signin_btn_text_light_disabled
 com.google.android.gms.R$color: int common_google_signin_btn_text_light_focused
 com.google.android.gms.R$color: int common_google_signin_btn_text_light_pressed
+com.google.android.gms.R$color: int common_google_signin_btn_tint
 com.google.android.gms.R$drawable: int common_full_open_on_phone
 com.google.android.gms.R$drawable: int common_google_signin_btn_icon_dark
-com.google.android.gms.R$drawable: int common_google_signin_btn_icon_dark_disabled
 com.google.android.gms.R$drawable: int common_google_signin_btn_icon_dark_focused
 com.google.android.gms.R$drawable: int common_google_signin_btn_icon_dark_normal
-com.google.android.gms.R$drawable: int common_google_signin_btn_icon_dark_pressed
+com.google.android.gms.R$drawable: int common_google_signin_btn_icon_dark_normal_background
+com.google.android.gms.R$drawable: int common_google_signin_btn_icon_disabled
 com.google.android.gms.R$drawable: int common_google_signin_btn_icon_light
-com.google.android.gms.R$drawable: int common_google_signin_btn_icon_light_disabled
 com.google.android.gms.R$drawable: int common_google_signin_btn_icon_light_focused
 com.google.android.gms.R$drawable: int common_google_signin_btn_icon_light_normal
-com.google.android.gms.R$drawable: int common_google_signin_btn_icon_light_pressed
+com.google.android.gms.R$drawable: int common_google_signin_btn_icon_light_normal_background
 com.google.android.gms.R$drawable: int common_google_signin_btn_text_dark
-com.google.android.gms.R$drawable: int common_google_signin_btn_text_dark_disabled
 com.google.android.gms.R$drawable: int common_google_signin_btn_text_dark_focused
 com.google.android.gms.R$drawable: int common_google_signin_btn_text_dark_normal
-com.google.android.gms.R$drawable: int common_google_signin_btn_text_dark_pressed
+com.google.android.gms.R$drawable: int common_google_signin_btn_text_dark_normal_background
+com.google.android.gms.R$drawable: int common_google_signin_btn_text_disabled
 com.google.android.gms.R$drawable: int common_google_signin_btn_text_light
-com.google.android.gms.R$drawable: int common_google_signin_btn_text_light_disabled
 com.google.android.gms.R$drawable: int common_google_signin_btn_text_light_focused
 com.google.android.gms.R$drawable: int common_google_signin_btn_text_light_normal
-com.google.android.gms.R$drawable: int common_google_signin_btn_text_light_pressed
+com.google.android.gms.R$drawable: int common_google_signin_btn_text_light_normal_background
+com.google.android.gms.R$drawable: int googleg_disabled_color_18
+com.google.android.gms.R$drawable: int googleg_standard_color_18
 com.google.android.gms.R$id: int adjust_height
 com.google.android.gms.R$id: int adjust_width
 com.google.android.gms.R$id: int auto
@@ -2062,6 +2063,7 @@ com.google.android.gms.auth.api.signin.GoogleSignInAccount
 com.google.android.gms.auth.api.signin.GoogleSignInAccount: android.os.Parcelable$Creator CREATOR
 com.google.android.gms.auth.api.signin.GoogleSignInOptions
 com.google.android.gms.auth.api.signin.GoogleSignInOptions: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.auth.api.signin.internal.zzg: android.os.Parcelable$Creator CREATOR
 com.google.android.gms.common.ConnectionResult: android.os.Parcelable$Creator CREATOR
 com.google.android.gms.common.SignInButton: void setSize(int)
 com.google.android.gms.common.SignInButton: void setColorScheme(int)
@@ -2099,6 +2101,7 @@ com.google.android.gms.common.stats.StatsEvent
 com.google.android.gms.common.stats.WakeLockEvent
 com.google.android.gms.common.stats.WakeLockEvent: android.os.Parcelable$Creator CREATOR
 com.google.android.gms.common.util.DynamiteApi
+com.google.android.gms.common.zzc: android.os.Parcelable$Creator CREATOR
 com.google.android.gms.dynamite.DynamiteModule$DynamiteLoaderClassLoader
 com.google.android.gms.dynamite.DynamiteModule$DynamiteLoaderClassLoader: java.lang.ClassLoader sClassLoader
 com.google.android.gms.dynamite.DynamiteModule$DynamiteLoaderClassLoader: DynamiteModule$DynamiteLoaderClassLoader()
@@ -2108,7 +2111,7 @@ com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags.ModuleD
 com.google.android.gms.dynamite.descriptors.com.google.android.gms.flags.ModuleDescriptor: ModuleDescriptor()
 com.google.android.gms.flags.impl.FlagProviderImpl
 com.google.android.gms.flags.impl.FlagProviderImpl: FlagProviderImpl()
-com.google.android.gms.flags.impl.FlagProviderImpl: void init(com.google.android.gms.dynamic.zzd)
+com.google.android.gms.flags.impl.FlagProviderImpl: void init(com.google.android.gms.dynamic.IObjectWrapper)
 com.google.android.gms.flags.impl.FlagProviderImpl: boolean getBooleanFlagValue(java.lang.String,boolean,int)
 com.google.android.gms.flags.impl.FlagProviderImpl: int getIntFlagValue(java.lang.String,int,int)
 com.google.android.gms.flags.impl.FlagProviderImpl: long getLongFlagValue(java.lang.String,long,int)
@@ -2126,32 +2129,33 @@ com.google.android.gms.gcm.Task
 com.google.android.gms.iid.InstanceIDListenerService: InstanceIDListenerService()
 com.google.android.gms.iid.MessengerCompat
 com.google.android.gms.iid.MessengerCompat: android.os.Parcelable$Creator CREATOR
-com.google.android.gms.internal.zzacf: android.os.Parcelable$Creator CREATOR
-com.google.android.gms.internal.zzach: android.os.Parcelable$Creator CREATOR
-com.google.android.gms.internal.zzach$zza: android.os.Parcelable$Creator CREATOR
-com.google.android.gms.internal.zzack$zza: com.google.android.gms.internal.zzacm CREATOR
-com.google.android.gms.internal.zzaco: android.os.Parcelable$Creator CREATOR
-com.google.android.gms.internal.zzaco$zza: android.os.Parcelable$Creator CREATOR
-com.google.android.gms.internal.zzaco$zzb: android.os.Parcelable$Creator CREATOR
-com.google.android.gms.internal.zzacr: android.os.Parcelable$Creator CREATOR
-com.google.android.gms.internal.zzag: com.google.android.gms.internal.zzag[] values()
+com.google.android.gms.internal.zzacn: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.zzacp: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.zzacp$zza: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.zzacs$zza: com.google.android.gms.internal.zzacu CREATOR
+com.google.android.gms.internal.zzacw: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.zzacw$zza: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.zzacw$zzb: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.zzacz: android.os.Parcelable$Creator CREATOR
 com.google.android.gms.internal.zzah: com.google.android.gms.internal.zzah[] values()
-com.google.android.gms.internal.zzapq$zza: zzapq$zza()
-com.google.android.gms.internal.zzapq$zza: com.google.android.gms.internal.zzapq asInterface(android.os.IBinder)
-com.google.android.gms.internal.zzapq$zza: android.os.IBinder asBinder()
-com.google.android.gms.internal.zzapq$zza: boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)
-com.google.android.gms.internal.zzasq: android.os.Parcelable$Creator CREATOR
-com.google.android.gms.internal.zzasz: android.os.Parcelable$Creator CREATOR
-com.google.android.gms.internal.zzatb: android.os.Parcelable$Creator CREATOR
-com.google.android.gms.internal.zzaub: android.os.Parcelable$Creator CREATOR
-com.google.android.gms.internal.zzawa: android.os.Parcelable$Creator CREATOR
-com.google.android.gms.internal.zzawc: android.os.Parcelable$Creator CREATOR
-com.google.android.gms.internal.zzaxp: android.os.Parcelable$Creator CREATOR
-com.google.android.gms.internal.zzaxs: android.os.Parcelable$Creator CREATOR
-com.google.android.gms.internal.zzaxw: android.os.Parcelable$Creator CREATOR
-com.google.android.gms.internal.zzaxz: android.os.Parcelable$Creator CREATOR
-com.google.android.gms.internal.zzayb: android.os.Parcelable$Creator CREATOR
-com.google.android.gms.internal.zzk$zza: com.google.android.gms.internal.zzk$zza[] values()
+com.google.android.gms.internal.zzai: com.google.android.gms.internal.zzai[] values()
+com.google.android.gms.internal.zzaqd$zza: zzaqd$zza()
+com.google.android.gms.internal.zzaqd$zza: com.google.android.gms.internal.zzaqd asInterface(android.os.IBinder)
+com.google.android.gms.internal.zzaqd$zza: android.os.IBinder asBinder()
+com.google.android.gms.internal.zzaqd$zza: boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)
+com.google.android.gms.internal.zzatd: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.zzatg: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.zzato: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.zzatq: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.zzauq: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.zzayx: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.zzayz: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.zzbak: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.zzban: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.zzbar: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.zzbau: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.zzbaw: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.zzl$zza: com.google.android.gms.internal.zzl$zza[] values()
 com.google.android.gms.location.places.PlaceReport
 com.google.android.gms.location.places.PlaceReport: android.os.Parcelable$Creator CREATOR
 com.google.android.gms.measurement.AppMeasurement
@@ -2160,14 +2164,37 @@ com.google.android.gms.measurement.AppMeasurement: void logEventInternal(java.la
 com.google.android.gms.measurement.AppMeasurement: void registerOnScreenChangeCallback(com.google.android.gms.measurement.AppMeasurement$zzd)
 com.google.android.gms.measurement.AppMeasurement: void unregisterOnScreenChangeCallback(com.google.android.gms.measurement.AppMeasurement$zzd)
 com.google.android.gms.measurement.AppMeasurement: java.lang.String getCurrentScreenName()
-com.google.android.gms.measurement.AppMeasurement: java.lang.String getCurrentScreenNameOnPackageSide(java.lang.String)
-com.google.android.gms.measurement.AppMeasurement: java.lang.String getAppInstanceIdOnPackageSide(java.lang.String)
-com.google.android.gms.measurement.AppMeasurement: java.lang.String getGmpAppIdOnPackageSide(java.lang.String)
 com.google.android.gms.measurement.AppMeasurement: java.lang.String getAppInstanceId()
 com.google.android.gms.measurement.AppMeasurement: java.lang.String getGmpAppId()
 com.google.android.gms.measurement.AppMeasurement: long generateEventId()
 com.google.android.gms.measurement.AppMeasurement: void beginAdUnitExposure(java.lang.String)
 com.google.android.gms.measurement.AppMeasurement: void endAdUnitExposure(java.lang.String)
+com.google.android.gms.measurement.AppMeasurement: void setConditionalUserProperty(com.google.android.gms.measurement.AppMeasurement$ConditionalUserProperty)
+com.google.android.gms.measurement.AppMeasurement: void setConditionalUserPropertyAs(com.google.android.gms.measurement.AppMeasurement$ConditionalUserProperty)
+com.google.android.gms.measurement.AppMeasurement: void clearConditionalUserProperty(java.lang.String,java.lang.String,android.os.Bundle)
+com.google.android.gms.measurement.AppMeasurement: void clearConditionalUserPropertyAs(java.lang.String,java.lang.String,java.lang.String,android.os.Bundle)
+com.google.android.gms.measurement.AppMeasurement: java.util.Map getUserProperties(java.lang.String,java.lang.String,boolean)
+com.google.android.gms.measurement.AppMeasurement: java.util.Map getUserPropertiesAs(java.lang.String,java.lang.String,java.lang.String,boolean)
+com.google.android.gms.measurement.AppMeasurement: java.util.List getConditionalUserProperties(java.lang.String,java.lang.String)
+com.google.android.gms.measurement.AppMeasurement: java.util.List getConditionalUserPropertiesAs(java.lang.String,java.lang.String,java.lang.String)
+com.google.android.gms.measurement.AppMeasurement: int getMaxUserProperties(java.lang.String)
+com.google.android.gms.measurement.AppMeasurement$ConditionalUserProperty
+com.google.android.gms.measurement.AppMeasurement$ConditionalUserProperty: java.lang.String mAppId
+com.google.android.gms.measurement.AppMeasurement$ConditionalUserProperty: java.lang.String mOrigin
+com.google.android.gms.measurement.AppMeasurement$ConditionalUserProperty: java.lang.String mName
+com.google.android.gms.measurement.AppMeasurement$ConditionalUserProperty: java.lang.Object mValue
+com.google.android.gms.measurement.AppMeasurement$ConditionalUserProperty: java.lang.String mTriggerEventName
+com.google.android.gms.measurement.AppMeasurement$ConditionalUserProperty: long mTriggerTimeout
+com.google.android.gms.measurement.AppMeasurement$ConditionalUserProperty: java.lang.String mTimedOutEventName
+com.google.android.gms.measurement.AppMeasurement$ConditionalUserProperty: android.os.Bundle mTimedOutEventParams
+com.google.android.gms.measurement.AppMeasurement$ConditionalUserProperty: java.lang.String mTriggeredEventName
+com.google.android.gms.measurement.AppMeasurement$ConditionalUserProperty: android.os.Bundle mTriggeredEventParams
+com.google.android.gms.measurement.AppMeasurement$ConditionalUserProperty: long mTimeToLive
+com.google.android.gms.measurement.AppMeasurement$ConditionalUserProperty: java.lang.String mExpiredEventName
+com.google.android.gms.measurement.AppMeasurement$ConditionalUserProperty: android.os.Bundle mExpiredEventParams
+com.google.android.gms.measurement.AppMeasurement$ConditionalUserProperty: long mCreationTimestamp
+com.google.android.gms.measurement.AppMeasurement$ConditionalUserProperty: boolean mActive
+com.google.android.gms.measurement.AppMeasurement$ConditionalUserProperty: long mTriggeredTimestamp
 com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
 com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver: AppMeasurementInstallReferrerReceiver()
 com.google.android.gms.measurement.AppMeasurementReceiver
@@ -2497,6 +2524,7 @@ ml.hepolise.vkaudiosave.R$color: int common_google_signin_btn_text_light_default
 ml.hepolise.vkaudiosave.R$color: int common_google_signin_btn_text_light_disabled
 ml.hepolise.vkaudiosave.R$color: int common_google_signin_btn_text_light_focused
 ml.hepolise.vkaudiosave.R$color: int common_google_signin_btn_text_light_pressed
+ml.hepolise.vkaudiosave.R$color: int common_google_signin_btn_tint
 ml.hepolise.vkaudiosave.R$color: int dim_foreground_disabled_material_dark
 ml.hepolise.vkaudiosave.R$color: int dim_foreground_disabled_material_light
 ml.hepolise.vkaudiosave.R$color: int dim_foreground_material_dark
@@ -2725,25 +2753,25 @@ ml.hepolise.vkaudiosave.R$drawable: int abc_textfield_search_material
 ml.hepolise.vkaudiosave.R$drawable: int abc_vector_test
 ml.hepolise.vkaudiosave.R$drawable: int common_full_open_on_phone
 ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_icon_dark
-ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_icon_dark_disabled
 ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_icon_dark_focused
 ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_icon_dark_normal
-ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_icon_dark_pressed
+ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_icon_dark_normal_background
+ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_icon_disabled
 ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_icon_light
-ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_icon_light_disabled
 ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_icon_light_focused
 ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_icon_light_normal
-ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_icon_light_pressed
+ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_icon_light_normal_background
 ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_text_dark
-ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_text_dark_disabled
 ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_text_dark_focused
 ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_text_dark_normal
-ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_text_dark_pressed
+ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_text_dark_normal_background
+ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_text_disabled
 ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_text_light
-ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_text_light_disabled
 ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_text_light_focused
 ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_text_light_normal
-ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_text_light_pressed
+ml.hepolise.vkaudiosave.R$drawable: int common_google_signin_btn_text_light_normal_background
+ml.hepolise.vkaudiosave.R$drawable: int googleg_disabled_color_18
+ml.hepolise.vkaudiosave.R$drawable: int googleg_standard_color_18
 ml.hepolise.vkaudiosave.R$drawable: int ic_done_white_36dp
 ml.hepolise.vkaudiosave.R$drawable: int ic_favorite_white_36dp
 ml.hepolise.vkaudiosave.R$drawable: int ic_reply_all_white_36dp

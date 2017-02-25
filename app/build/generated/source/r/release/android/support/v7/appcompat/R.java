@@ -335,8 +335,8 @@ public final class R {
 		public static final int secondary_text_disabled_material_light = 0x7f090046;
 		public static final int switch_thumb_disabled_material_dark = 0x7f090047;
 		public static final int switch_thumb_disabled_material_light = 0x7f090048;
-		public static final int switch_thumb_material_dark = 0x7f090062;
-		public static final int switch_thumb_material_light = 0x7f090063;
+		public static final int switch_thumb_material_dark = 0x7f090063;
+		public static final int switch_thumb_material_light = 0x7f090064;
 		public static final int switch_thumb_normal_material_dark = 0x7f090049;
 		public static final int switch_thumb_normal_material_light = 0x7f09004a;
 	}
