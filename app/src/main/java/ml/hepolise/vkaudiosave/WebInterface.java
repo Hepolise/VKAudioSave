@@ -13,8 +13,7 @@ import java.io.IOException;
  * Created by hepolise on 14.01.17.
  */
 
-public class
-WebInterface {
+public class WebInterface {
     Context mContext;
 
     String TAG = "VKAudioSave";
