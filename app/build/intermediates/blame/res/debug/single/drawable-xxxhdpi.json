@@ -1,19 +1,7 @@
 [
     {
-        "merged": "/home/hepolise/repo/VKAudioSave/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_favorite_white_36dp.png",
-        "source": "/home/hepolise/repo/VKAudioSave/app/src/main/res/drawable-xxxhdpi/ic_favorite_white_36dp.png"
-    },
-    {
         "merged": "/home/hepolise/development/VKAudioSave/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_favorite_white_36dp.png",
         "source": "/home/hepolise/development/VKAudioSave/app/src/main/res/drawable-xxxhdpi/ic_favorite_white_36dp.png"
-    },
-    {
-        "merged": "/home/hepolise/repo/VKAudioSave/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_reply_all_white_36dp.png",
-        "source": "/home/hepolise/repo/VKAudioSave/app/src/main/res/drawable-xxxhdpi/ic_reply_all_white_36dp.png"
-    },
-    {
-        "merged": "/home/hepolise/repo/VKAudioSave/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_done_white_36dp.png",
-        "source": "/home/hepolise/repo/VKAudioSave/app/src/main/res/drawable-xxxhdpi/ic_done_white_36dp.png"
     },
     {
         "merged": "/home/hepolise/development/VKAudioSave/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_done_white_36dp.png",

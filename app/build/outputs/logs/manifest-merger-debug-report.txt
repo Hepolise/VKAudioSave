@@ -15,25 +15,25 @@ ADDED from /home/hepolise/development/VKAudioSave/app/src/main/AndroidManifest.x
 		INJECTED from /home/hepolise/development/VKAudioSave/app/src/main/AndroidManifest.xml
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from /home/hepolise/development/VKAudioSave/app/src/main/AndroidManifest.xml:6:5-82
-MERGED from [com.google.android.gms:play-services-gcm:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.2.0/AndroidManifest.xml:20:5-81
-MERGED from [com.google.android.gms:play-services-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.2.0/AndroidManifest.xml:20:5-81
-MERGED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:22:5-81
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] /home/hepolise/.android/build-cache/a776230a8cb660f063b7d3623d5450637a2c7428/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] /home/hepolise/.android/build-cache/5522ea17c565eab5ca423e29b317108b7622a7ee/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:22:5-81
 	android:name
 		ADDED from /home/hepolise/development/VKAudioSave/app/src/main/AndroidManifest.xml:6:22-79
 uses-permission#android.permission.WAKE_LOCK
 ADDED from /home/hepolise/development/VKAudioSave/app/src/main/AndroidManifest.xml:7:5-68
-MERGED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.2.0/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/.android/build-cache/c7073cfd0f1b99215a9d74718b47e6365f9319a3/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /home/hepolise/.android/build-cache/7effdc87d0d5b2c17477b6e4fa4d92bcec82568f/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:21:5-67
 	android:name
 		ADDED from /home/hepolise/development/VKAudioSave/app/src/main/AndroidManifest.xml:7:22-65
 uses-permission#android.permission.INTERNET
 ADDED from /home/hepolise/development/VKAudioSave/app/src/main/AndroidManifest.xml:8:5-67
-MERGED from [com.google.android.gms:play-services-gcm:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.2.0/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.2.0/AndroidManifest.xml:21:5-66
-MERGED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.2.0/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] /home/hepolise/.android/build-cache/a776230a8cb660f063b7d3623d5450637a2c7428/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] /home/hepolise/.android/build-cache/5522ea17c565eab5ca423e29b317108b7622a7ee/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/.android/build-cache/c7073cfd0f1b99215a9d74718b47e6365f9319a3/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /home/hepolise/.android/build-cache/7effdc87d0d5b2c17477b6e4fa4d92bcec82568f/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from /home/hepolise/development/VKAudioSave/app/src/main/AndroidManifest.xml:8:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
@@ -46,25 +46,25 @@ ADDED from /home/hepolise/development/VKAudioSave/app/src/main/AndroidManifest.x
 		ADDED from /home/hepolise/development/VKAudioSave/app/src/main/AndroidManifest.xml:10:22-79
 application
 ADDED from /home/hepolise/development/VKAudioSave/app/src/main/AndroidManifest.xml:13:5-62:19
-MERGED from [com.google.android.gms:play-services-gcm:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.2.0/AndroidManifest.xml:23:5-19
-MERGED from [com.google.android.gms:play-services-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.2.0/AndroidManifest.xml:23:5-19
-MERGED from [com.google.android.gms:play-services-base:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/AndroidManifest.xml:18:5-20:19
-MERGED from [com.android.support:appcompat-v7:25.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/AndroidManifest.xml:23:5-20
-MERGED from [com.google.firebase:firebase-core:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-core/10.2.0/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/AndroidManifest.xml:24:5-33:19
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.2.0/AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:28:5-50:19
-MERGED from [com.google.firebase:firebase-common:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.2.0/AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.0/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.0/AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:25.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] /home/hepolise/.android/build-cache/a776230a8cb660f063b7d3623d5450637a2c7428/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] /home/hepolise/.android/build-cache/5522ea17c565eab5ca423e29b317108b7622a7ee/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.0] /home/hepolise/.android/build-cache/731b89ef4811d4cd36de341e4eb18a33eee26a22/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.android.support:appcompat-v7:25.2.0] /home/hepolise/.android/build-cache/fa6a789196427eba6f8788a23a7a37b0ef3885a9/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/hepolise/.android/build-cache/67df90b926a7cb86f20a11640ab42a5d56eeb856/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/hepolise/.android/build-cache/2283531d7ccd37cd3c01249a3bcbebcedc0bbc4a/output/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-core:10.2.0] /home/hepolise/.android/build-cache/ffdfc4c541e4a5d26ceee70b9cb4402e661868b9/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/.android/build-cache/c7073cfd0f1b99215a9d74718b47e6365f9319a3/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /home/hepolise/.android/build-cache/7effdc87d0d5b2c17477b6e4fa4d92bcec82568f/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:10.2.0] /home/hepolise/.android/build-cache/c83cf4e6bbee1d5e2d6fe863433d0ae496daffde/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /home/hepolise/.android/build-cache/41ab978bd043003a52df84cc6f8f4f47a56f895b/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] /home/hepolise/.android/build-cache/586edc09cd357d773d2615958fae354494f0440e/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] /home/hepolise/.android/build-cache/3d21b014473642ce5c3145930495711c6c9d092b/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /home/hepolise/.android/build-cache/03abc6cd97c0edb8bffcdc1971d0b5de4ade7f3d/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/hepolise/.android/build-cache/4706d1d3c03713d857ea6cfeaf13e815fb0156b1/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/hepolise/.android/build-cache/6b7e7f592534ecf4215a586abb60f5ab52f70467/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/hepolise/.android/build-cache/da44536c5bf28d198766a5c2a917786fea94ccf6/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /home/hepolise/.android/build-cache/061e546dbc3963f4f72834e7406a4c88620d422d/output/AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from /home/hepolise/development/VKAudioSave/app/src/main/AndroidManifest.xml:16:9-41
 	android:allowBackup
@@ -135,28 +135,28 @@ ADDED from /home/hepolise/development/VKAudioSave/app/src/main/AndroidManifest.x
 		ADDED from /home/hepolise/development/VKAudioSave/app/src/main/AndroidManifest.xml:59:13-77
 uses-sdk
 INJECTED from /home/hepolise/development/VKAudioSave/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:multidex:1.0.1] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-gcm:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.2.0/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.2.0/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-base:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:appcompat-v7:25.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/AndroidManifest.xml:21:5-43
-MERGED from [com.google.firebase:firebase-core:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-core/10.2.0/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.2.0/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-common:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.2.0/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.0/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.0/AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:25.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:multidex:1.0.1] /home/hepolise/.android/build-cache/3971924e71f49aafade812dbbad0b2984e6fb39a/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] /home/hepolise/.android/build-cache/a776230a8cb660f063b7d3623d5450637a2c7428/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] /home/hepolise/.android/build-cache/5522ea17c565eab5ca423e29b317108b7622a7ee/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.0] /home/hepolise/.android/build-cache/731b89ef4811d4cd36de341e4eb18a33eee26a22/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:appcompat-v7:25.2.0] /home/hepolise/.android/build-cache/fa6a789196427eba6f8788a23a7a37b0ef3885a9/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/hepolise/.android/build-cache/67df90b926a7cb86f20a11640ab42a5d56eeb856/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/hepolise/.android/build-cache/2283531d7ccd37cd3c01249a3bcbebcedc0bbc4a/output/AndroidManifest.xml:21:5-43
+MERGED from [com.google.firebase:firebase-core:10.2.0] /home/hepolise/.android/build-cache/ffdfc4c541e4a5d26ceee70b9cb4402e661868b9/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/.android/build-cache/c7073cfd0f1b99215a9d74718b47e6365f9319a3/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /home/hepolise/.android/build-cache/7effdc87d0d5b2c17477b6e4fa4d92bcec82568f/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.0] /home/hepolise/.android/build-cache/c83cf4e6bbee1d5e2d6fe863433d0ae496daffde/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /home/hepolise/.android/build-cache/41ab978bd043003a52df84cc6f8f4f47a56f895b/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] /home/hepolise/.android/build-cache/586edc09cd357d773d2615958fae354494f0440e/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.2.0] /home/hepolise/.android/build-cache/3d21b014473642ce5c3145930495711c6c9d092b/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] /home/hepolise/.android/build-cache/03abc6cd97c0edb8bffcdc1971d0b5de4ade7f3d/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/hepolise/.android/build-cache/4706d1d3c03713d857ea6cfeaf13e815fb0156b1/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/hepolise/.android/build-cache/6b7e7f592534ecf4215a586abb60f5ab52f70467/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/hepolise/.android/build-cache/da44536c5bf28d198766a5c2a917786fea94ccf6/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] /home/hepolise/.android/build-cache/061e546dbc3963f4f72834e7406a4c88620d422d/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.2.0] /home/hepolise/.android/build-cache/fa6a789196427eba6f8788a23a7a37b0ef3885a9/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /home/hepolise/development/VKAudioSave/app/src/main/AndroidManifest.xml
 		INJECTED from /home/hepolise/development/VKAudioSave/app/src/main/AndroidManifest.xml
@@ -164,112 +164,112 @@ MERGED from [com.android.support:support-compat:25.2.0] /home/hepolise/developme
 		INJECTED from /home/hepolise/development/VKAudioSave/app/src/main/AndroidManifest.xml
 		INJECTED from /home/hepolise/development/VKAudioSave/app/src/main/AndroidManifest.xml
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:10.2.0] /home/hepolise/.android/build-cache/731b89ef4811d4cd36de341e4eb18a33eee26a22/output/AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] /home/hepolise/.android/build-cache/731b89ef4811d4cd36de341e4eb18a33eee26a22/output/AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] /home/hepolise/.android/build-cache/731b89ef4811d4cd36de341e4eb18a33eee26a22/output/AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] /home/hepolise/.android/build-cache/731b89ef4811d4cd36de341e4eb18a33eee26a22/output/AndroidManifest.xml:19:19-85
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.2.0/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:19:5-78
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/.android/build-cache/c7073cfd0f1b99215a9d74718b47e6365f9319a3/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /home/hepolise/.android/build-cache/7effdc87d0d5b2c17477b6e4fa4d92bcec82568f/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/AndroidManifest.xml:21:22-76
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/.android/build-cache/c7073cfd0f1b99215a9d74718b47e6365f9319a3/output/AndroidManifest.xml:21:22-76
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.2.0/AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/.android/build-cache/c7073cfd0f1b99215a9d74718b47e6365f9319a3/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /home/hepolise/.android/build-cache/7effdc87d0d5b2c17477b6e4fa4d92bcec82568f/output/AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/.android/build-cache/c7073cfd0f1b99215a9d74718b47e6365f9319a3/output/AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/.android/build-cache/c7073cfd0f1b99215a9d74718b47e6365f9319a3/output/AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/.android/build-cache/c7073cfd0f1b99215a9d74718b47e6365f9319a3/output/AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/.android/build-cache/c7073cfd0f1b99215a9d74718b47e6365f9319a3/output/AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/.android/build-cache/c7073cfd0f1b99215a9d74718b47e6365f9319a3/output/AndroidManifest.xml:27:162-184
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/.android/build-cache/c7073cfd0f1b99215a9d74718b47e6365f9319a3/output/AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/AndroidManifest.xml:27:17-104
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/.android/build-cache/c7073cfd0f1b99215a9d74718b47e6365f9319a3/output/AndroidManifest.xml:27:17-104
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/AndroidManifest.xml:28:11-30:27
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/.android/build-cache/c7073cfd0f1b99215a9d74718b47e6365f9319a3/output/AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/.android/build-cache/c7073cfd0f1b99215a9d74718b47e6365f9319a3/output/AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/.android/build-cache/c7073cfd0f1b99215a9d74718b47e6365f9319a3/output/AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.2.0/AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/.android/build-cache/c7073cfd0f1b99215a9d74718b47e6365f9319a3/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] /home/hepolise/.android/build-cache/7effdc87d0d5b2c17477b6e4fa4d92bcec82568f/output/AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/.android/build-cache/c7073cfd0f1b99215a9d74718b47e6365f9319a3/output/AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/.android/build-cache/c7073cfd0f1b99215a9d74718b47e6365f9319a3/output/AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.2.0/AndroidManifest.xml:32:16-87
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] /home/hepolise/.android/build-cache/c7073cfd0f1b99215a9d74718b47e6365f9319a3/output/AndroidManifest.xml:32:16-87
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:24:17-71
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:26:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:30:9-36:20
+ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:30:9-36:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:30:85-108
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:30:109-169
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:30:19-84
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:30:19-84
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:31:13-35:29
+ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:31:13-35:29
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:33:17-85
+ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:33:17-85
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:33:25-83
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:33:25-83
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:34:17-60
+ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:34:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:34:27-58
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:34:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:40:9-119
+ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:40:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:40:93-117
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:40:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:40:19-92
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:40:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:44:9-48:19
+ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:44:9-48:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:44:83-106
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:44:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:44:18-82
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:44:18-82
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:45:13-47:29
+ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:45:13-47:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:45:28-51
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:45:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:46:17-79
+ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:46:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.2.0/AndroidManifest.xml:46:25-77
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] /home/hepolise/.android/build-cache/e894b4acae6e3faa570f9f0fce5e525b09001839/output/AndroidManifest.xml:46:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.2.0/AndroidManifest.xml:6:9-194
+ADDED from [com.google.firebase:firebase-common:10.2.0] /home/hepolise/.android/build-cache/c83cf4e6bbee1d5e2d6fe863433d0ae496daffde/output/AndroidManifest.xml:6:9-194
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.2.0/AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:10.2.0] /home/hepolise/.android/build-cache/c83cf4e6bbee1d5e2d6fe863433d0ae496daffde/output/AndroidManifest.xml:6:19-78
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.2.0/AndroidManifest.xml:6:144-168
+		ADDED from [com.google.firebase:firebase-common:10.2.0] /home/hepolise/.android/build-cache/c83cf4e6bbee1d5e2d6fe863433d0ae496daffde/output/AndroidManifest.xml:6:144-168
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.2.0/AndroidManifest.xml:6:169-192
+		ADDED from [com.google.firebase:firebase-common:10.2.0] /home/hepolise/.android/build-cache/c83cf4e6bbee1d5e2d6fe863433d0ae496daffde/output/AndroidManifest.xml:6:169-192
 	android:name
-		ADDED from [com.google.firebase:firebase-common:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.2.0/AndroidManifest.xml:6:79-143
+		ADDED from [com.google.firebase:firebase-common:10.2.0] /home/hepolise/.android/build-cache/c83cf4e6bbee1d5e2d6fe863433d0ae496daffde/output/AndroidManifest.xml:6:79-143
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.0/AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:10.2.0] /home/hepolise/.android/build-cache/586edc09cd357d773d2615958fae354494f0440e/output/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.0/AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] /home/hepolise/.android/build-cache/586edc09cd357d773d2615958fae354494f0440e/output/AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:10.2.0] /home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.0/AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] /home/hepolise/.android/build-cache/586edc09cd357d773d2615958fae354494f0440e/output/AndroidManifest.xml:20:20-65

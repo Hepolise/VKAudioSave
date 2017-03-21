@@ -1,50 +1,26 @@
 [
     {
-        "merged": "/home/hepolise/repo/VKAudioSave/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
-        "source": "/home/hepolise/repo/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v11/notification_template_big_media_custom.xml"
-    },
-    {
         "merged": "/home/hepolise/development/VKAudioSave/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
-        "source": "/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout-v11/notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "/home/hepolise/repo/VKAudioSave/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
-        "source": "/home/hepolise/repo/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v11/notification_media_cancel_action.xml"
+        "source": "/home/hepolise/.android/build-cache/fa6a789196427eba6f8788a23a7a37b0ef3885a9/output/res/layout-v11/notification_media_cancel_action.xml"
     },
     {
         "merged": "/home/hepolise/development/VKAudioSave/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
-        "source": "/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout-v11/notification_template_big_media_narrow_custom.xml"
-    },
-    {
-        "merged": "/home/hepolise/repo/VKAudioSave/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
-        "source": "/home/hepolise/repo/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+        "source": "/home/hepolise/.android/build-cache/fa6a789196427eba6f8788a23a7a37b0ef3885a9/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "/home/hepolise/development/VKAudioSave/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
-        "source": "/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout-v11/notification_media_action.xml"
+        "source": "/home/hepolise/.android/build-cache/fa6a789196427eba6f8788a23a7a37b0ef3885a9/output/res/layout-v11/notification_media_action.xml"
     },
     {
         "merged": "/home/hepolise/development/VKAudioSave/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
-        "source": "/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout-v11/notification_template_big_media_custom.xml"
-    },
-    {
-        "merged": "/home/hepolise/repo/VKAudioSave/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
-        "source": "/home/hepolise/repo/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v11/notification_template_big_media_narrow.xml"
+        "source": "/home/hepolise/.android/build-cache/fa6a789196427eba6f8788a23a7a37b0ef3885a9/output/res/layout-v11/notification_template_big_media_custom.xml"
     },
     {
         "merged": "/home/hepolise/development/VKAudioSave/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
-        "source": "/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout-v11/notification_template_big_media.xml"
-    },
-    {
-        "merged": "/home/hepolise/repo/VKAudioSave/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
-        "source": "/home/hepolise/repo/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v11/notification_template_big_media.xml"
+        "source": "/home/hepolise/.android/build-cache/fa6a789196427eba6f8788a23a7a37b0ef3885a9/output/res/layout-v11/notification_template_big_media.xml"
     },
     {
         "merged": "/home/hepolise/development/VKAudioSave/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
-        "source": "/home/hepolise/development/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/res/layout-v11/notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "/home/hepolise/repo/VKAudioSave/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
-        "source": "/home/hepolise/repo/VKAudioSave/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v11/notification_media_action.xml"
+        "source": "/home/hepolise/.android/build-cache/fa6a789196427eba6f8788a23a7a37b0ef3885a9/output/res/layout-v11/notification_template_big_media_narrow.xml"
     }
 ]
