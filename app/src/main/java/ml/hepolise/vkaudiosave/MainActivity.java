@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.loading);
         permissions();
 
         try {
@@ -95,27 +95,28 @@ public class MainActivity extends AppCompatActivity {
                 boolean sentToken = sharedPreferences
                         .getBoolean(QuickstartPreferences.SENT_TOKEN_TO_SERVER, false);
                 if (sentToken) {
-                    setContentView(R.layout.webview);
-                    mWebView = (WebView) findViewById(R.id.activity_main_webview);
-                    mWebView.setWebChromeClient(new WebChromeClient());
-                    WebSettings webSettings = mWebView.getSettings();
-                    webSettings.setJavaScriptEnabled(true);
-                    mWebView.addJavascriptInterface(new WebInterface(getApplicationContext()), "Android");
-//                    mWebView.clearCache(true);
-//                    mWebView.clearHistory();
-//                    clearCookies(getApplicationContext());
-                    mWebView.loadUrl("https://vk-as.tk/?app=" + token + "&version=" + version + "&debug=0");
-                    mWebView.setWebViewClient(new webview());
-                    mWebView.setDownloadListener(new DownloadListener() {
-                        public void onDownloadStart(String url, String userAgent,
-                                                    String contentDisposition, String mimetype,
-                                                    long contentLength) {
+                    setContentView(R.layout.main_activity);
 
-                            Uri uri = Uri.parse(url);
-                            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                            startActivity(intent);
-                        }
-                    });
+//                    mWebView = (WebView) findViewById(R.id.activity_main_webview);
+//                    mWebView.setWebChromeClient(new WebChromeClient());
+//                    WebSettings webSettings = mWebView.getSettings();
+//                    webSettings.setJavaScriptEnabled(true);
+//                    mWebView.addJavascriptInterface(new WebInterface(getApplicationContext()), "Android");
+////                    mWebView.clearCache(true);
+////                    mWebView.clearHistory();
+////                    clearCookies(getApplicationContext());
+//                    mWebView.loadUrl("https://vk-as.tk/?app=" + token + "&version=" + version + "&debug=0");
+//                    mWebView.setWebViewClient(new webview());
+//                    mWebView.setDownloadListener(new DownloadListener() {
+//                        public void onDownloadStart(String url, String userAgent,
+//                                                    String contentDisposition, String mimetype,
+//                                                    long contentLength) {
+//
+//                            Uri uri = Uri.parse(url);
+//                            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+//                            startActivity(intent);
+//                        }
+//                    });
 
                 } else {
                     mInformationTextView.setText(getString(R.string.token_error_message));
